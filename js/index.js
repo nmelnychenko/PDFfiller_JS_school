@@ -1,3 +1,5 @@
+'use strict';
+
 var params = {
   lines: [
     {
@@ -115,7 +117,6 @@ function generateElements() {
           for (var i = 1; i < line.elements.length; i++) {
             var duplicateElement = element.cloneNode(true);
             item.appendChild(duplicateElement);
-            console.log(duplicateElement);
           }
         }
 
